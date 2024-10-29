@@ -8,6 +8,10 @@ html {
     font-family: "Sora", serif;
 }
 
+main {
+    padding: 0 5vw;
+}
+
 .description {
     display: flex;
     flex-direction: column;
