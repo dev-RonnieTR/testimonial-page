@@ -27,3 +27,11 @@ p {
 li {
     font-size: 0.875rem;
 }
+
+.star-emoji {
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 100%;
+    background-color: #F5C044;
+    
+}
