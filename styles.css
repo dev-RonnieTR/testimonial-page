@@ -7,3 +7,23 @@
 html {
     font-family: "Sora", serif;
 }
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.review p {
+    font-size: 1rem;
+}
+
+li {
+    font-size: 0.875rem;
+}
