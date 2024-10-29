@@ -33,6 +33,27 @@ p {
 
 li {
     font-size: 0.875rem;
+    display: flex; /*To align checkmark and list text*/
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1em 0;
+}
+
+li::before {
+    content: "";
+    background-image: url(images/Done_ring_round_fill.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 0.5em;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style: none;
+    list-style-position: inside;
 }
 
 .star-emoji {
