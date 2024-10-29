@@ -8,6 +8,13 @@ html {
     font-family: "Sora", serif;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
 h1 {
     font-size: 2.25rem;
 }
@@ -33,5 +40,4 @@ li {
     padding: 0.5rem;
     border-radius: 100%;
     background-color: #F5C044;
-    
 }
