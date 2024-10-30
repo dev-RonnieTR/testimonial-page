@@ -113,6 +113,11 @@ ul {
     flex-direction: row;
 }
 
+.rating img {
+    width: 1.5rem;
+    height: auto;
+}
+
 .align-right {
     margin-left: auto;
 }
