@@ -8,6 +8,10 @@ html {
     font-family: "Sora", serif;
 }
 
+body {
+    background-color: #FAFAF9;
+}
+
 main {
     padding: 0 5vw;
 }
@@ -65,4 +69,48 @@ ul {
     padding: 0.5rem;
     border-radius: 100%;
     background-color: #F5C044;
+}
+
+.review {
+    width: 100%;
+    max-width: 350px;
+    padding: 2em;
+    margin-top: 4vh;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px 10px #00000007;
+}
+
+.review > header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.review > h2 {
+    margin-bottom: 0.7em;
+}
+
+.review > header > img {
+    width: 25%;
+    min-width: 80px;
+    height: auto;
+    margin-right: 1em;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.align-left {
+    margin-right: auto;
 }
