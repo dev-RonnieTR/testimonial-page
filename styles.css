@@ -6,7 +6,19 @@
 
 html {
     font-family: "Sora", serif;
-    font-size: clamp(12px, 4vw, 16px);
+    font-size: clamp(14px, 2.5vw, 18px);
+}
+
+@media (min-width: 1920px) {
+    html {
+        font-size: clamp(18px, 2vw, 20px); /* Allows scaling on large screens */
+    }
+}
+
+@media (min-width: 2560px) {
+    html {
+        font-size: clamp(20px, 1.5vw, 24px); /* Further scaling for 4K+ screens */
+    }
 }
 
 body {
