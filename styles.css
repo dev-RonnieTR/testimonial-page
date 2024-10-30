@@ -6,6 +6,7 @@
 
 html {
     font-family: "Sora", serif;
+    font-size: clamp(12px, 4vw, 16px);
 }
 
 body {
