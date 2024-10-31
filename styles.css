@@ -145,13 +145,13 @@ ul {
 /* For screens between 1920px and 2560px */
 @media (min-width: 1920px) and (max-width: 2559px) {
     html {
-        font-size: clamp(18px, 2vw, 20px);
+        font-size: clamp(18px, 2vw, 24px);
     }
 }
 
 /* For screens 2560px and above */
 @media (min-width: 2560px) {
     html {
-        font-size: clamp(20px, 1.5vw, 24px);
+        font-size: clamp(24px, 1.5vw, 30px);
     }
 }
