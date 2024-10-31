@@ -155,3 +155,9 @@ ul {
         font-size: clamp(24px, 1.5vw, 30px);
     }
 }
+
+@media (min-width: 3840px) {
+    main {
+        max-width: 3840px;
+    }
+}
